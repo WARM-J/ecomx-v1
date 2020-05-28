@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using SQLHelper;
 namespace ecomx
 {
     public class Startup
@@ -24,6 +24,8 @@ namespace ecomx
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            SQLHandlerAsync.Connectionconfig = Configuration.GetConnectionString("DbConnection");
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

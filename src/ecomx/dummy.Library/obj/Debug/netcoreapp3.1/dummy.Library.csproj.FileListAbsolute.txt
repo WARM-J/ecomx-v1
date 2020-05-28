@@ -1,0 +1,11 @@
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\bin\Debug\netcoreapp3.1\dummy.Library.deps.json
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\bin\Debug\netcoreapp3.1\dummy.Library.dll
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\bin\Debug\netcoreapp3.1\dummy.Library.pdb
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\bin\Debug\netcoreapp3.1\MS.SQLHelper.dll
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\bin\Debug\netcoreapp3.1\MS.SQLHelper.pdb
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.csprojAssemblyReference.cache
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.AssemblyInfoInputs.cache
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.AssemblyInfo.cs
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.csproj.CopyComplete
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.dll
+D:\WARM-J\ECOMX\src\ecomx\dummy.Library\obj\Debug\netcoreapp3.1\dummy.Library.pdb
