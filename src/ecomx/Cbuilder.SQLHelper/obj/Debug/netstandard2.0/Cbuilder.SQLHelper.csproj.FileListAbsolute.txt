@@ -1,0 +1,8 @@
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\Cbuilder.SQLHelper.deps.json
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\Cbuilder.SQLHelper.dll
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\Cbuilder.SQLHelper.pdb
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\Cbuilder.SQLHelper.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\Cbuilder.SQLHelper.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\Cbuilder.SQLHelper.AssemblyInfo.cs
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\Cbuilder.SQLHelper.dll
+C:\Users\acer\source\repos\Smart Contentder\Research\Ashesh\ComponentViewer\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\Cbuilder.SQLHelper.pdb
