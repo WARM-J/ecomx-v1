@@ -3,3 +3,6 @@
 ################################################################################
 
 /src/ecomx/ecomx.Database/ecomx.Database.publish.xml
+/src/ecomx/ecomx.Database/bin/Debug
+/src/ecomx/ecomx.Database/ecomx.Database.jfm
+/src/ecomx/ecomx.Database/ecomx.Database.dbmdl

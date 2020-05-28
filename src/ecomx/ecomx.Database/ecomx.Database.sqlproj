@@ -64,6 +64,10 @@
     <Build Include="dbo\testtable.sql" />
     <Build Include="Programmability\Stored Procedures\teststoreprocedure.sql" />
     <Build Include="Programmability\Stored Procedures\user_get_all_user.sql" />
+    <Build Include="Programmability\Stored Procedures\user_get_user_by_id.sql" />
+    <Build Include="Programmability\Stored Procedures\user_create_user.sql" />
+    <Build Include="Programmability\Stored Procedures\user_update_user_by_id.sql" />
+    <Build Include="Programmability\Stored Procedures\user_delete_user_by_id.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ecomx.Database.publish.xml" />

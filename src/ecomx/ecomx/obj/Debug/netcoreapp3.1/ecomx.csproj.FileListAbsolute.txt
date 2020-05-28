@@ -117,3 +117,7 @@ D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\ecomx.csproj.CopyComplet
 D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\ecomx.dll
 D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\ecomx.pdb
 D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\Razor\Views\Dummy\Index.cshtml.g.cs
+D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\Razor\Views\Dummy\UserDetail.cshtml.g.cs
+D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\Razor\Views\Dummy\CreateUser.cshtml.g.cs
+D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\Razor\Views\Dummy\UpdateUser.cshtml.g.cs
+D:\WARM-J\ECOMX\src\ecomx\ecomx\obj\Debug\netcoreapp3.1\Razor\Views\Dummy\DeleteUser.cshtml.g.cs
