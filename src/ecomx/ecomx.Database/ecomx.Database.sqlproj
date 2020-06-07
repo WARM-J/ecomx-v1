@@ -59,6 +59,7 @@
     <Folder Include="dbo" />
     <Folder Include="Programmability" />
     <Folder Include="Programmability\Stored Procedures" />
+    <Folder Include="Programmability\Stored Procedures\review" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\testtable.sql" />
@@ -68,8 +69,19 @@
     <Build Include="Programmability\Stored Procedures\user_create_user.sql" />
     <Build Include="Programmability\Stored Procedures\user_update_user_by_id.sql" />
     <Build Include="Programmability\Stored Procedures\user_delete_user_by_id.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_add_review.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_get_all_review_by_user_id.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_get_all_review_by_product_id.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_get_top_review_by_product_id.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_get_star_by_product_id.sql" />
+    <Build Include="Programmability\Stored Procedures\review\usp_review_create_or_update_review.sql" />
+    <Build Include="dbo\review_table_1.sql" />
+    <Build Include="Programmability\Stored Procedures\usp_review_get_avg_rating_of_product.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ecomx.Database.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ecomx.Database.refactorlog" />
   </ItemGroup>
 </Project>
