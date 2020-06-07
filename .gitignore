@@ -358,3 +358,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/visualstudio
+/src/ecomx/ecomx.Database/ecomx.Database.refactorlog
