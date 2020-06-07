@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\dummy.Library\dummy.Library.csproj" />
+    <ProjectReference Include="..\order.Library\order.Library.csproj" />
+    <ProjectReference Include="..\shoppingCart.Library\shoppingCart.Library.csproj" />
   </ItemGroup>
 
 

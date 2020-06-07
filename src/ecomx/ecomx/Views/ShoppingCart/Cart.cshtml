@@ -1,0 +1,81 @@
+﻿@model IEnumerable<shoppingCart.Library.Entity.Model.CartModel>
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Descritpion</th>
+            <th>Quantity</th>
+            <th>Description</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName </td>
+                <td>@item.Price</td>
+                <td>@item.Description </td>
+                <td>@item.Quantity</td>
+                <td>@item.Description</td>
+                @*<td>
+                        <select asp-for="@item.Quantity" asp-items="@ViewBag.GetQuantity" class="from-control">
+                            <option>Select Quantity</option>
+                        </select>
+                    </td>*@
+
+
+                <td>
+                    <div class="btn-group">
+                        <a asp-controller="ShoppingCart" asp-action="Remove" class="btn btn-primary" asp-route-cartId="@item.CartId">
+                            Remove
+                        </a>
+
+                    </div>
+                </td>
+                <td>
+                    @using (Html.BeginForm("Update", "Shopping"))
+                    {
+                        @*<input name="cartId" value="@cart.Id" type="hidden" />
+                            <input name="productId" value="@product.Id" type="hidden" />*@
+                        @*<input name="quantity" type="text" />*@
+
+                        @*<select name="quantity" asp-items="@ViewBag.GetQuantity" class="from-control">
+                                <option>Qty</option>
+                            </select>*@
+                        <script>
+                            var value = 0;
+                            function add() {
+                                value++;
+                                document.getElementById("field").innerHTML = value;
+                            }
+                            function sub() {
+                                value--;
+                                document.getElementById("field").innerHTML = value;
+                            }
+                        </script>
+                        <form>
+                            <input type="button" value="QTY" />
+                        </form>
+                        <span id="field">0</span>
+                        @*<button type="submit" asp-controller="Shopping" asp-action="Update" asp-route-rId="@item.CartId" asp-route-productId="@item.ProductId">Update</button>*@
+                    }
+                </td>
+
+            </tr>
+        }
+
+    </table>
+
+    @*Total: @ViewBag.Total*@
+
+    <a asp-controller="Order" asp-action="CheckOut" class="btn btn-primary">
+        Proceed to Check Out
+    </a>
+
+</div>

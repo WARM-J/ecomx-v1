@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS.SQLHelper", "Cbuilder.SQ
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ecomx.Database", "ecomx.Database\ecomx.Database.sqlproj", "{EECFA7BC-8956-46DD-9FEB-7023A5406C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dummy.Library", "dummy.Library\dummy.Library.csproj", "{DD54656D-492E-4A4A-9954-D6EF9072A5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dummy.Library", "dummy.Library\dummy.Library.csproj", "{DD54656D-492E-4A4A-9954-D6EF9072A5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shoppingCart.Library", "shoppingCart.Library\shoppingCart.Library.csproj", "{C7F7B571-6223-49D6-9C1F-CA71A56A0CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "order.Library", "order.Library\order.Library.csproj", "{959CD9B8-96ED-4DCA-BB9B-F3DE8C368553}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{DD54656D-492E-4A4A-9954-D6EF9072A5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD54656D-492E-4A4A-9954-D6EF9072A5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD54656D-492E-4A4A-9954-D6EF9072A5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7F7B571-6223-49D6-9C1F-CA71A56A0CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F7B571-6223-49D6-9C1F-CA71A56A0CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F7B571-6223-49D6-9C1F-CA71A56A0CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F7B571-6223-49D6-9C1F-CA71A56A0CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959CD9B8-96ED-4DCA-BB9B-F3DE8C368553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959CD9B8-96ED-4DCA-BB9B-F3DE8C368553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959CD9B8-96ED-4DCA-BB9B-F3DE8C368553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959CD9B8-96ED-4DCA-BB9B-F3DE8C368553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

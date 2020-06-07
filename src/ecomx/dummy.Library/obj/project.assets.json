@@ -542,23 +542,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\acer\\.nuget\\packages\\": {},
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WARM-J\\ECOMX\\src\\ecomx\\dummy.Library\\dummy.Library.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\WARM-J Project\\ECOMX\\ecomx-v1\\src\\ecomx\\dummy.Library\\dummy.Library.csproj",
       "projectName": "dummy.Library",
-      "projectPath": "D:\\WARM-J\\ECOMX\\src\\ecomx\\dummy.Library\\dummy.Library.csproj",
-      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-      "outputPath": "D:\\WARM-J\\ECOMX\\src\\ecomx\\dummy.Library\\obj\\",
+      "projectPath": "C:\\Users\\hp\\Desktop\\WARM-J Project\\ECOMX\\ecomx-v1\\src\\ecomx\\dummy.Library\\dummy.Library.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\WARM-J Project\\ECOMX\\ecomx-v1\\src\\ecomx\\dummy.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -571,8 +571,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\WARM-J\\ECOMX\\src\\ecomx\\Cbuilder.SQLHelper\\MS.SQLHelper.csproj": {
-              "projectPath": "D:\\WARM-J\\ECOMX\\src\\ecomx\\Cbuilder.SQLHelper\\MS.SQLHelper.csproj"
+            "C:\\Users\\hp\\Desktop\\WARM-J Project\\ECOMX\\ecomx-v1\\src\\ecomx\\Cbuilder.SQLHelper\\MS.SQLHelper.csproj": {
+              "projectPath": "C:\\Users\\hp\\Desktop\\WARM-J Project\\ECOMX\\ecomx-v1\\src\\ecomx\\Cbuilder.SQLHelper\\MS.SQLHelper.csproj"
             }
           }
         }
@@ -600,7 +600,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

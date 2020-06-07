@@ -1,8 +1,0 @@
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\MS.SQLHelper.deps.json
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\MS.SQLHelper.dll
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\bin\Debug\netstandard2.0\MS.SQLHelper.pdb
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\MS.SQLHelper.csprojAssemblyReference.cache
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\MS.SQLHelper.AssemblyInfoInputs.cache
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\MS.SQLHelper.AssemblyInfo.cs
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\MS.SQLHelper.dll
-D:\WARM-J\ECOMX\src\ecomx\Cbuilder.SQLHelper\obj\Debug\netstandard2.0\MS.SQLHelper.pdb

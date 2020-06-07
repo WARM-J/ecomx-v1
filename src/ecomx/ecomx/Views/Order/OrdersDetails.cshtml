@@ -1,0 +1,45 @@
+﻿@model IEnumerable<order.Library.Entity.Model.ServerSideOrderDetailModel>
+@{
+    ViewData["Title"] = "OrdersDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>OrdersDetails</h1>
+
+<div>
+    <h4>TestModel</h4>
+    <hr />
+    <table>
+        <tr>
+            <th>FullName</th>
+            <th>ProductName</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>DeliveryInstruction</th>
+            <th>OrderDate</th>
+            <th>Total</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>@item.FullName</th>
+                <th>@item.Address</th>
+                <th>@item.ProductName</th>
+                <th>@item.Price</th>
+                <th>@item.Quantity</th>
+                <th>@item.City</th>
+                <th>@item.DeliveryInstruction</th>
+                <th>@item.OrderDate</th>
+                <th>@item.Total</th>
+            </tr>
+        }
+
+    </table>
+</div>
+<div>
+    <a asp-controller="Dummy" asp-action="UpdateUser">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

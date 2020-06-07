@@ -59,6 +59,8 @@
     <Folder Include="dbo" />
     <Folder Include="Programmability" />
     <Folder Include="Programmability\Stored Procedures" />
+    <Folder Include="Programmability\Stored Procedures\shoppingCart SP" />
+    <Folder Include="Programmability\Stored Procedures\order SP" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\testtable.sql" />
@@ -68,6 +70,25 @@
     <Build Include="Programmability\Stored Procedures\user_create_user.sql" />
     <Build Include="Programmability\Stored Procedures\user_update_user_by_id.sql" />
     <Build Include="Programmability\Stored Procedures\user_delete_user_by_id.sql" />
+    <Build Include="dbo\cartTable.sql" />
+    <Build Include="dbo\orderTable.sql" />
+    <Build Include="dbo\orderDetailTable.sql" />
+    <Build Include="dbo\productTable.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_add_to_cart_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_update_add_to_cart.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_update_cart_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_get_cart_by_cartId_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_get_cart_by_userId_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_create_order_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_create_order_details.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_get_all_order_details.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_get_order_by_userId.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_get_order_details.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_get_orderNo_count.sql" />
+    <Build Include="Programmability\Stored Procedures\order SP\usp_odrmg_get_orders_details_by_order.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_remove_product_by_cartId_by_user.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_update_is_placed_order_in__cart.sql" />
+    <Build Include="Programmability\Stored Procedures\shoppingCart SP\usp_odrmg_get_total.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ecomx.Database.publish.xml" />

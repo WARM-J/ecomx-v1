@@ -1,0 +1,107 @@
+﻿@model order.Library.Entity.Model.OrderModel
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-info">Order Details</h2>
+<form asp-action="CheckOut" asp-controller="Order" method="post" enctype="multipart/form-data">
+    <div class="p-4 rounded border row">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+
+        </div>
+        <div class="col-6">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="FullName"></label>
+                </div>
+                <div class="col-8">
+                    <input type="hidden" asp-for="UserId" />
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Address"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="City"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="PhoneNumber"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="DeliveryInstruction"></label>
+                </div>
+                <div class="col-8">
+                    @*<select asp-for="ProductTypeId" asp-items="ViewBag.productTypeId" class="form-control"></select>*@
+                    <input asp-for="DeliveryInstruction" class="form-control" />
+                    <span asp-validation-for="DeliveryInstruction" class="text-danger"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        @*<div class="col-6">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in products)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="~/Uploads/@item.Image" height="100px" width="150px" />
+                                </td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Price</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="text-right">
+                    <h3>Total Price : @products.Sum(c => c.Price)</h3>
+                </div>
+                <div class="form-group text-right">
+                    <input type="submit" value="Place Order" class="btn btn-success" />
+                </div>
+            </div>*@
+
+    </div>
+    @ViewBag.Message
+    <div class="form-group text-right">
+        <input type="submit" value="Place Order" class="btn btn-success" />
+    </div>
+</form>
+
