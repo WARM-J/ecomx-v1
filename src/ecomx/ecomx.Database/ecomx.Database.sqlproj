@@ -59,6 +59,7 @@
     <Folder Include="dbo" />
     <Folder Include="Programmability" />
     <Folder Include="Programmability\Stored Procedures" />
+    <Folder Include="Programmability\Stored Procedures\Modules.Products" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\testtable.sql" />
@@ -68,6 +69,12 @@
     <Build Include="Programmability\Stored Procedures\user_create_user.sql" />
     <Build Include="Programmability\Stored Procedures\user_update_user_by_id.sql" />
     <Build Include="Programmability\Stored Procedures\user_delete_user_by_id.sql" />
+    <Build Include="dbo\Products.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_Add_Product.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_Update_Product.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_Delete_Product.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_GetAllProduct.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_GetProduct_By_ProductID.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ecomx.Database.publish.xml" />
