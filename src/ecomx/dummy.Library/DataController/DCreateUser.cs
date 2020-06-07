@@ -11,6 +11,11 @@ namespace dummy.Library.DataController
     public class DCreateUser
     {
         readonly CreateUser _createUser = new CreateUser();
+        /// <summary>
+        /// Create Dummy Data
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
         public async Task Create(TestModel user)
         {
             List<SQLParam> sQLParams = new List<SQLParam>()
