@@ -6,7 +6,10 @@
 	@Brand nvarchar(max),
 	@MRP int,
 	@Price int,
-	@Quantity int
+	@Quantity int,
+	@Description nvarchar(max)--,
+	--@UpdatedOn DateTime,
+	--@UpdatedBy nvarchar(255)
 AS
 	BEGIN
 	UPDATE Products
@@ -17,7 +20,9 @@ AS
 	Brand=@Brand,
 	MRP=@MRP,
 	Price=@Price,
-	Quantity=@Quantity
+	Quantity=@Quantity,
+	Description=@Description--,
+	--UpdatedOn=GETDATE()
 
 	WHERE ProductID=@ProductID;
 	END

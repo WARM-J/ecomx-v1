@@ -75,6 +75,7 @@
     <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_Delete_Product.sql" />
     <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_GetAllProduct.sql" />
     <Build Include="Programmability\Stored Procedures\Modules.Products\usp_Products_GetProduct_By_ProductID.sql" />
+    <Build Include="Programmability\Stored Procedures\Modules.Products\usp_GetAllSearchFilterPagination.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ecomx.Database.publish.xml" />

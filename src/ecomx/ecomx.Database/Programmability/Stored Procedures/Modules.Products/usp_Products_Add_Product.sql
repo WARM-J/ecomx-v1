@@ -8,11 +8,38 @@
 	@Brand nvarchar(max),
 	@MRP int,
 	@Price int,
-	@Quantity int
+	@Quantity int,
+	@Description nvarchar(max)
+	--@UpdateOn DateTime,
+	--@UpdateBy Nvarchar(255),
+	--@AddedOn DateTime,
+	--@AddedBy nvarchar(255),
+	--@IsActive bit
 	
 AS
 BEGIN
-	INSERT INTO dbo.Products(ProductName,ImageUrl,Rating,Brand,MRP,Price,Quantity)VALUES(@ProductName,@ImageUrl,@Rating,@Brand,@MRP,@Price,@Quantity)
+	INSERT INTO dbo.Products(
+	ProductName,
+	ImageUrl,
+	Rating,
+	Brand,
+	MRP,
+	Price,
+	Quantity,
+	Description--,
+	--AddedOn
+	)
+	VALUES(
+	@ProductName,
+	@ImageUrl,
+	@Rating,
+	@Brand,
+	@MRP,
+	@Price,
+	@Quantity,
+	@Description--,
+	--GETDATE()
+	)
 	END
 	 
 	 

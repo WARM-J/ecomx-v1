@@ -21,7 +21,9 @@ namespace Products.Library.DataController
                 new SQLParam("@Brand",productsInfo.Brand),
                 new SQLParam("@MRP",productsInfo.MRP),
                 new SQLParam("@Price",productsInfo.Price),
-                new SQLParam("@Quantity",productsInfo.Quantity)
+                new SQLParam("@Quantity",productsInfo.Quantity),
+                new SQLParam("@Description",productsInfo.Description)
+                //new SQLParam("@AddedOn",productsInfo.AddedOn)
             };
             await _addProduct.Create(sQLParams);
         }

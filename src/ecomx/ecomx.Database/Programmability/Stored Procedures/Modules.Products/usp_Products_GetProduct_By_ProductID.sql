@@ -9,7 +9,8 @@ BEGIN
 	Brand ,
 	MRP ,
 	Price,
-	Quantity From Products
+	Quantity
+	Description From Products
 	WHERE ProductID=@ProductID
 	END
 RETURN 0

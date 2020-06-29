@@ -7,5 +7,11 @@
     [Brand] NVARCHAR(MAX) NULL, 
     [MRP] INT NULL, 
     [Price] INT NULL, 
-    [Quantity] INT NULL 
+    [Quantity] INT NULL, 
+    [Description] NVARCHAR(MAX) NULL, 
+    [AddedOn] DATETIME NULL, 
+    [AddedBy] NVARCHAR(255) NULL, 
+    [UpdatedOn] DATETIME NULL, 
+    [UpdatedBy] NVARCHAR(255) NULL, 
+    [IsActive] BIT NULL 
 )

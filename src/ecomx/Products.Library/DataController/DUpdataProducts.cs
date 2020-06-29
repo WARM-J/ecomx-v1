@@ -15,13 +15,16 @@ namespace Products.Library.DataController
         {
             List<SQLParam> sQLParams = new List<SQLParam>()
             {
+                new SQLParam("@ProductID",productsInfo.ProductID),
                 new SQLParam("@ProductName",productsInfo.ProductName),
                 new SQLParam("@ImageUrl",productsInfo.ImageUrl),
                 new SQLParam("@Rating",productsInfo.Rating),
                 new SQLParam("@Brand",productsInfo.Brand),
                 new SQLParam("@MRP",productsInfo.MRP),
                 new SQLParam("@Price",productsInfo.Price),
-                new SQLParam("@Quantity",productsInfo.Quantity)
+                new SQLParam("@Quantity",productsInfo.Quantity),
+                new SQLParam("@Description",productsInfo.Description)
+               // new SQLParam("@UpdatedOn",productsInfo.UpdatedOn)
             };
             await _updateProducts.Update(sQLParams);
         }
